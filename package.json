@@ -1,21 +1,21 @@
 {
-    "name": "user",
-    "version": "1.0.0",
-    "description": "user REST API",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "SteveW",
-    "license": "Apache-2.0",
-    "dependencies": {
-      "express": "^4.21.2",
-      "mongodb": "^5.3.0",
-      "redis": "^4.6.4",
-      "pino": "^9.6.0",
-      "express-pino-logger": "^7.0.0",
-      "pino-pretty": "^13.0.0",
-      "@instana/collector": "^1.198.0"
-    }
-  }  
+  "name": "user",
+  "version": "1.0.0",
+  "description": "user REST API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SteveW",
+  "license": "Apache-2.0",
+  "dependencies": {
+      "body-parser": "^1.18.1",
+      "express": "^4.15.4",
+      "mongodb": "^3.5.3",
+      "redis": "^2.8.0",
+      "pino": "^5.10.8",
+      "express-pino-logger": "^4.0.0",
+      "pino-pretty": "^2.5.0",
+      "@instana/collector": "^1.98.1"
+  }
+}
